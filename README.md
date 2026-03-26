@@ -4,8 +4,18 @@
 int main(){
 sf::Renderwindow window(Videomode(100,60)"hra")
 
+sf::Font font;
+font.loadfromFile(arial.tff)
+
+sf::Text hud
+hud.setPosition()
+hud.setScale()
+hud.setFillcolour()
+hud.setCharacterSize()
+
 int level
 int last level
+
 sf::Texture playerTex,enemyTex1,enemyTex2,enemyTex3,bossTex
 sf::Texture bgTex1,bgTex2,bgTex3,bgTex4,bgTex5,bgTex6,bgTex7,bgTex8,bgTex9,bgTex10
 
