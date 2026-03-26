@@ -1,4 +1,4 @@
-# include <SFML/Graphics>
+ .# include <SFML/Graphics>
 #include <iostream>
 
 int main(){
@@ -42,6 +42,16 @@ boss.setscale(0.3,0.3);
  int boss health;
 
 auto levelreset[&](){
+ 
+player.setposition(120,32)
+
+if(level==1){
+  backgroun.setTexture(bg1)
+
+    enemy[0].setposition()
+    enemy[1].setposition()
+    enemy[2].setposition()
+}
 
 
 
